@@ -1,0 +1,21 @@
+  h1 {
+    color: #333;
+  }
+  
+  .info-seguro {
+    margin-bottom: 20px;
+  }
+  
+  .info-seguro h2 {
+    color: #0056b3;
+  }
+  
+  .info-seguro p {
+    color: #555;
+    line-height: 1.6;
+  }
+  .contenedor-logo{
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+  }
