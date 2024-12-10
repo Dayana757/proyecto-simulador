@@ -7,12 +7,11 @@ const InfoSeguros = () => {
     <div className="info-seguro">
   <header className="header">
     <div className="nav-bar">
-      <img src="ruta/a/tu/logo.png" alt="Logo" className="logo" />
+      <img src="public/logo (3).png" alt="Logo" className="logo" />
       <nav className="nav">
         <ul>
-          <li><a href="#inicio">Home</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <img src="public/person.png" alt="" />
+          
         </ul>
       </nav>
     </div>
@@ -27,7 +26,7 @@ const InfoSeguros = () => {
       </div>
       
       <div className="banner-image">
-        <img src="ruta/a/tu/imagen.jpg" alt="Restaurante" />
+        <img src="public/image.png" alt="Restaurante" />
         <ul className="banner-list">
           <li>Opción 1</li>
           <li>Opción 2</li>
