@@ -1,19 +1,16 @@
 import React from 'react';
-import InfoSeguros from './pages/InfoSeguros'; // Importa el componente de información
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import InfoSeguros from './pages/InfoSeguros';
+import Cotizar from './pages/Cotizar';
 
 const App = () => {
-  // Acción al hacer clic en el botón
-  const manejarClick = () => {
-    alert('Calculando el seguro...');
-  };
-
   return (
-    <div className="app">
-      
-      <InfoSeguros /> {/* Componente que muestra la información */}
-     
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<InfoSeguros />} />
+        <Route path="/cotizar" element={<Cotizar />} />
+      </Routes>
+    </Router>
   );
 };
 

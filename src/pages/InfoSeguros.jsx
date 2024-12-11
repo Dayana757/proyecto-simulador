@@ -1,5 +1,5 @@
 import React from 'react';
-import './InfoSeguros.css';
+import './InfoSeguros.css'; // Asegúrate de que el archivo CSS esté presente.
 
 const InfoSeguros = () => {
   return (
@@ -21,7 +21,9 @@ const InfoSeguros = () => {
               Tranquilidad garantizada para proteger tu carro de robos y daños con la opción de financiar tu seguro de vehículo hasta por 12 meses.
               ¡Obtén el respaldo que necesitas donde quieras y cuando quieras!
             </p>
-            <button className="button"><b>Cotizar</b></button>
+            <a href="/cotizar">
+              <button className="button"><b>Cotizar</b></button>
+            </a>
           </div>
 
           <div className="banner-image">
