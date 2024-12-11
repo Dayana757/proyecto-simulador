@@ -1,57 +1,50 @@
 import React from 'react';
-import  './InfoSeguros.css'
+import './InfoSeguros.css';
 
 const InfoSeguros = () => {
   return (
-    
     <div className="info-seguro">
-  <header className="header">
-    <div className="nav-bar">
-      <img src="public/logo (3).png" alt="Logo" className="logo" />
-      <nav className="nav">
-        <ul>
-          <img src="public/person.png" alt="" />
-          
-        </ul>
-      </nav>
-    </div>
-    
-    <div className="banner">
-      <div className="banner-text">
-        <h1>Seguro Todo Riesgo</h1>
-        <p>Tranquilidad garantizada para proteger tu carro de robos y daños con la opción de financiar tu seguro de vehículo hasta por 12 meses.
-           ¡Obtén el respaldo que necesitas donde quieras y cuando quieras 
-        </p>
-      <button className='button'>Cotizar</button>
-      </div>
-      
-      <div className="banner-image">
-        <img src="public/image.png" alt="Restaurante" />
-        <ul className="banner-list">
-          <li>Opción 1</li>
-          <li>Opción 2</li>
-          <li>Opción 3</li>
-        </ul>
-      </div>
-    </div>
-  </header>
-</div>
-   /* <div className="info-seguro">
-      <div className='contenedor-logo'>
+      <header className="header">
+        <div className="nav-bar">
+          <img src="public/logo1.png" alt="Logo" className="logo" />
+          <nav className="nav">
+            <ul>
+              <img src="/person.png" alt="Persona" />
+            </ul>
+          </nav>
+        </div>
 
+        <div className="banner">
+          <div className="banner-text">
+            <h1>Seguro Todo Riesgo</h1>
+            <p>
+              Tranquilidad garantizada para proteger tu carro de robos y daños con la opción de financiar tu seguro de vehículo hasta por 12 meses.
+              ¡Obtén el respaldo que necesitas donde quieras y cuando quieras!
+            </p>
+            <button className="button"><b>Cotizar</b></button>
+          </div>
+
+          <div className="banner-image">
+            <img src="/image.png" alt="Restaurante" />
+            <ul className="banner-list">
+              <li>Cotiza en menos de 3 minutos</li>
+              <li>Financiación en 12 cuotas</li>
+              <li>Cancelación gratuita</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div className="info-seguro-vehiculo">
+        <div className="contenedor-logo"></div>
+        <h2>Información Seguros Vehículos</h2>
+        <ul>
+          <li>El seguro de vehículos es una cobertura que protege tu automóvil ante accidentes, robos y otros imprevistos.</li>
+          <li>Existen diferentes tipos de seguros como el seguro a terceros, seguro a todo riesgo, y seguro de daños propios.</li>
+          <li>Con este simulador, podrás obtener una estimación del costo de tu seguro según el tipo de cobertura y las características de tu vehículo.</li>
+        </ul>
       </div>
-      <h2>Información sobre el Seguro de Vehículos</h2>
-      <p>
-        El seguro de vehículos es una cobertura que protege tu automóvil ante
-        accidentes, robos y otros imprevistos. Existen diferentes tipos de seguros
-        como el seguro a terceros, seguro a todo riesgo, y seguro de daños propios.
-      </p>
-      <p>
-        Con este simulador, podrás obtener una estimación del costo de tu seguro
-        según el tipo de cobertura y las características de tu vehículo.
-      </p>
-    </div>*/
-    
+    </div>
   );
 };
 
