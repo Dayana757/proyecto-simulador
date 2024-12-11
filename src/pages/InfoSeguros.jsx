@@ -46,6 +46,28 @@ const InfoSeguros = () => {
           <li>Con este simulador, podrás obtener una estimación del costo de tu seguro según el tipo de cobertura y las características de tu vehículo.</li>
         </ul>
       </div>
+      <div className='tittle'><h1>¿Por qué elegir tu seguro con nosotros?</h1></div>
+      
+      <div class="info-seguro-nosotros">
+  <div class="info-item">
+    <img src="/fondos.png" alt="Financiación" />
+    <h3>Financia en hasta 12 cuotas</h3>
+    <p>Distribuye el pago de tu seguro en cuotas mensuales que se adapten a tu presupuesto y garantiza la protección de tu vehículo.</p>
+  </div>
+  <div class="info-item">
+    <img src="/pique.png" alt="Cotización rápida" />
+    <h3>Cotiza en menos de 2 minutos</h3>
+    <p>Obtén tu cotización en minutos y asegura tu auto con una cobertura completa, sin trámites ni complicaciones.</p>
+  </div>
+  <div class="info-item">
+    <img src="/cancelacion.png" alt="Cancelación gratuita" />
+    <h3>Cancelación gratuita</h3>
+    <p>Podrás cancelar tu seguro en cualquier momento, pagando solo por el tiempo que hayas estado cubierto.</p>
+  </div>
+</div>
+<a className='button12'  href="/cotizar">
+    <button className="button2"><b>Cotizar</b></button>
+     </a>
     </div>
   );
 };

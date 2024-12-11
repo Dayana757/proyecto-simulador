@@ -126,7 +126,7 @@ const Cotizar = () => {
               />
             </div>
 
-            <button type="submit">Comprar Póliza</button>
+            <button type="submit">Jaime comprar poliza</button>
           </form>
         </div>
       )}
